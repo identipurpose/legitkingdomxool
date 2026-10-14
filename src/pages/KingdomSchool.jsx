@@ -42,9 +42,9 @@ export default function KingdomSchool() {
   const location=useLocation();
   const path=location.pathname;
   useEffect(() => {
-    document.title = 'Legit Kingdom School';
+    document.title = 'Legit Kingdom Xool';
     if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
-    return () => { document.title = 'Legit Kingdom School'; };
+    return () => { document.title = 'Legit Kingdom Xool'; };
   }, [path, location.hash]);
   const {lessonId}=useParams();
   const [stage,setStage]=useState('all');
@@ -60,13 +60,13 @@ export default function KingdomSchool() {
   async function submit(e) {
     e.preventDefault(); setBusy(true);setStatus(''); const data=new FormData(e.currentTarget);
     try {
-      await base44.entities.ContactMessage.create({name:data.get('name').trim(),email:data.get('email').trim(),subject:`Legit Kingdom School — ${role==='mentor'?'mentor application':'discipleship request'}`,message:`Role: ${role}\nChurch / community: ${data.get('community')}\nAvailability: ${data.get('availability')}\n\n${data.get('message')}\n\nApplicant agreed to being contacted about this request.`});
+      await base44.entities.ContactMessage.create({name:data.get('name').trim(),email:data.get('email').trim(),subject:`Legit Kingdom Xool — ${role==='mentor'?'mentor application':'discipleship request'}`,message:`Role: ${role}\nChurch / community: ${data.get('community')}\nAvailability: ${data.get('availability')}\n\n${data.get('message')}\n\nApplicant agreed to being contacted about this request.`});
       setSent(true);setStatus('Your request has been submitted for review. This does not confirm a mentor match.');
     } catch {setStatus('We couldn’t submit your request. Please try again or contact contact@heedgod.com.');} finally {setBusy(false);}
   }
   return <div className="ks-shell"><Navbar links={nav} showLogin={false}/><main>
     {isHome ? <>
-      <section className="ks-hero"><div className="ks-hero-copy"><div className="ks-school-mark"><BookOpen size={24}/><span>LEGIT KINGDOM SCHOOL<span>A learning space within HEEDGOD</span></span></div><span className="ks-eyebrow">Know Him. Find your place. Grow together.</span><h1>Welcome to<br/><span>Legit Kingdom<br/>School.</span></h1><p>A place where you rediscover God, His kingdom, and your place in it.</p><div className="ks-actions"><Link className={button} to="/journey">Find your next step <ArrowRight size={18}/></Link><Link className="ks-text-link" to="/teachings">Explore the teachings <ArrowUpRight size={17}/></Link></div><div className="ks-hero-note"><span className="ks-dot"/>A clear path. Room to ask. People to walk with.</div></div>
+      <section className="ks-hero"><div className="ks-hero-copy"><div className="ks-school-mark"><BookOpen size={24}/><span>LEGIT KINGDOM SCHOOL<span>A learning space within HEEDGOD</span></span></div><span className="ks-eyebrow">Know Him. Find your place. Grow together.</span><h1>Welcome to<br/><span>Legit Kingdom<br/>Xool.</span></h1><p>A place where you rediscover God, His kingdom, and your place in it.</p><div className="ks-actions"><Link className={button} to="/journey">Find your next step <ArrowRight size={18}/></Link><Link className="ks-text-link" to="/teachings">Explore the teachings <ArrowUpRight size={17}/></Link></div><div className="ks-hero-note"><span className="ks-dot"/>A clear path. Room to ask. People to walk with.</div></div>
       <div className="ks-path-panel"><div className="ks-panel-label"><Compass size={18}/> THE JOURNEY OF GROWTH</div>{stages.map((s,i)=><Link to={`/journey#${s.id}`} className="ks-path-step" key={s.id}><div className="ks-path-number">0{i+1}</div><div><span>{s.name}</span><h2>{s.title}</h2><p>{s.description}</p></div><s.icon size={25}/></Link>)}<p className="ks-panel-foot">Rooted in Christ. Growing in love. Bearing fruit.</p></div></section>
       <section className="ks-section"><div className="ks-section-head"><div><span className="ks-eyebrow">One school. A connected experience.</span><h2>Everything has its place.</h2></div><p>Move through an ordered journey, return to the teachings you need, and grow alongside others.</p></div><div className="ks-feature-grid">{[{to:'/teachings',icon:BookOpen,title:'Doctrines & teachings',text:'A growing library, arranged by stage and topic. Begin with foundations and build from there.',label:'Open the library'},{to:'/fathers-and-teachers',icon:Users,title:'Fathers & teachers',text:'Discover the people, books, and teachings selected to support your learning.',label:'Meet the teachers'},{to:'/discipleship',icon:HeartHandshake,title:'Discipleship',text:'Ask for someone to walk with you, or apply to help another believer grow.',label:'Grow with someone'}].map(x=><Link to={x.to} className="ks-feature" key={x.to}><x.icon size={27}/><h3>{x.title}</h3><p>{x.text}</p><span>{x.label}<ArrowUpRight size={18}/></span></Link>)}</div></section>
       <section className="ks-invitation"><span className="ks-eyebrow">Start where you are</span><h2>You don’t have to learn<br/>everything at once.</h2><p>Begin with one study, one question, and one faithful next step.</p><Link className={button} to="/teachings/gospel">Begin with the foundations <ArrowRight size={18}/></Link></section>

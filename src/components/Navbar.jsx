@@ -22,7 +22,7 @@ export default function Navbar({ links = DEFAULT_LINKS, showLogin = true, varian
       <div className="flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-10 h-16">
         <Link to="/" className="flex items-center gap-2.5 shrink-0">
           <BookOpen className="w-8 h-8 text-primary" />
-          <span className="text-lg font-bold tracking-tight text-foreground font-poppins">Legit Kingdom School</span>
+          <span className="text-lg font-bold tracking-tight text-foreground font-poppins">Legit Kingdom Xool</span>
         </Link>
 
         {/* Desktop nav */}
