@@ -1,0 +1,9 @@
+
+.brand-footer a { border-radius: .5rem; transition: color .18s, background .18s, box-shadow .18s; }
+.brand-footer .footer-link { padding: .25rem .4rem; margin-left: -.4rem; }
+.brand-footer a:hover, .brand-footer a:focus-visible { background: linear-gradient(90deg, #ff3131, #ff914d); color: white; }
+.brand-footer .footer-brand:hover, .brand-footer .footer-brand:focus-visible { background: none; color: inherit; }
+.brand-footer .footer-social:hover, .brand-footer .footer-social:focus-visible { border-color: transparent; color: white; }
+.brand-footer .footer-heading { white-space: nowrap; }
+
+.brand-footer .footer-social { border-radius: 9999px; }
