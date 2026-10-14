@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;600;700&family=Lora:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    --primary: 0 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 0 0% 10%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
+    --accent: 18 100% 65%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 5% 87%;
+    --input: 240 5% 87%;
+    --ring: 0 100% 60%;
+    --chart-1: 0 100% 60%;
+    --chart-2: 18 100% 65%;
+    --chart-3: 43 100% 67%;
+    --chart-4: 190 60% 50%;
+    --chart-5: 280 65% 60%;
+    --radius: 0.875rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 10%;
+    --sidebar-primary: 0 100% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 5% 96%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 240 5% 87%;
+    --sidebar-ring: 0 100% 60%;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-lora: 'Lora', serif;
+    /* Shared HEEDGOD typography and spacing scale */
+    --type-display: clamp(1.75rem, 3vw + .5rem, 3rem);
+    --type-page: clamp(1.75rem, 2vw + 1rem, 2.5rem);
+    --type-section: clamp(1.5rem, 1vw + 1rem, 1.875rem);
+    --type-card: 1.25rem;
+    --type-body: 1rem;
+    --type-lead: 1.125rem;
+    --type-ui: .875rem;
+    --type-small: .8125rem;
+    --leading-body: 1.6;
+    --space-1: .5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
+    --space-4: 2rem;
+    --space-6: 3rem;
+    --space-8: 4rem;
+    --space-12: 6rem;
+  }
+
+  .dark {
+    --background: 0 0% 8%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 0 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 18 100% 65%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 100% 60%;
+    --chart-1: 0 100% 60%;
+    --chart-2: 18 100% 65%;
+    --chart-3: 43 100% 67%;
+    --chart-4: 190 60% 50%;
+    --chart-5: 280 65% 60%;
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 0 100% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 16%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 0 100% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Visible keyboard focus */
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  /* Approved brand gradients */
+  .gradient-primary {
+    background: linear-gradient(90deg, #ff3131, #ff914d);
+  }
+  .gradient-secondary {
+    background: linear-gradient(90deg, #ff914d, #ffd059);
+  }
+  .gradient-warm-neutral {
+    background: linear-gradient(180deg, #fffcf5, #d8d5ca);
+  }
+  .gradient-slate {
+    background: linear-gradient(180deg, #a5acb9, #303643);
+  }
+  .gradient-monochrome {
+    background: linear-gradient(90deg, #000000, #737373);
+  }
+  .gradient-pink-yellow {
+    background: linear-gradient(90deg, #ff66c4, #ffde59);
+  }
+  .gradient-blue-yellow {
+    background: linear-gradient(90deg, #62bfd4, #f1dd76);
+  }
+
+  /* Gradient text helpers */
+  .text-gradient-primary {
+    background: linear-gradient(90deg, #ff3131, #ff914d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  .text-gradient-secondary {
+    background: linear-gradient(90deg, #ff914d, #ffd059);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  /* Subtle warm page tint */
+  .bg-page-tint {
+    background: linear-gradient(180deg, #ffffff 0%, #fffcf5 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

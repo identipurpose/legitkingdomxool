@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "people": [
+    {
+      "id": "joshua-selman",
+      "name": "Joshua Selman",
+      "summary": "Teaching resources are available through Koinonia’s official media library.",
+      "ministry": "Koinonia / Eternity Network International",
+      "topicIds": [
+        "spiritual-growth",
+        "holy-spirit",
+        "kingdom"
+      ],
+      "sortOrder": 1,
+      "verification": "source-checked",
+      "sourceUrl": "https://media.koinoniaglobal.org/sermons/",
+      "imageUrl": "https://readsermons.com/storage/sermons/images/0FmPYersMqHnFwYCI3bKwr4zlZa0BKC732TfIsLH.jpg",
+      "imageSourceUrl": "https://readsermons.com/Title/The-Portrait-of-True-Kingdom-Success-%28Success-Through-the-Lens-of-Scripture%29/by-Apostle-Joshua-Selman/1_excerpt",
+      "imageAlt": "Portrait of Joshua Selman"
+    },
+    {
+      "id": "femi-lazarus",
+      "name": "Femi Lazarus",
+      "summary": "A ministry leader whose official platform includes resources on purpose, leadership, and Christian growth.",
+      "ministry": "Light Nation Church",
+      "topicIds": [
+        "leadership",
+        "identity-purpose",
+        "spiritual-growth"
+      ],
+      "sortOrder": 2,
+      "verification": "source-checked",
+      "sourceUrl": "https://femilazarus.com/",
+      "imageUrl": "/images/teachers/femi-lazarus.jpg",
+      "imageSourceUrl": "https://femilazarus.com/",
+      "imageAlt": "Portrait of Femi Lazarus"
+    },
+    {
+      "id": "arome-osayi",
+      "name": "Arome Osayi",
+      "summary": "Author and teacher with books listed in the RCN Lagos ministry library.",
+      "ministry": "Remnant Christian Network",
+      "topicIds": [
+        "prayer",
+        "spiritual-warfare",
+        "kingdom"
+      ],
+      "sortOrder": 3,
+      "verification": "source-checked",
+      "sourceUrl": "https://www.rcnlagos.org/books",
+      "imageUrl": "https://dccampmeeting.org/images/arome-osayi.jpg",
+      "imageSourceUrl": "https://dccampmeeting.org/",
+      "imageAlt": "Portrait of Arome Osayi"
+    },
+    {
+      "id": "stephanie-ike-okafor",
+      "name": "Stephanie Ike Okafor",
+      "summary": "Author and teacher whose resources include studies on purpose and recognizing God’s leading.",
+      "ministry": "Plug International",
+      "region": "United States",
+      "topicIds": [
+        "identity-purpose",
+        "hearing-god",
+        "discipleship"
+      ],
+      "sortOrder": 4,
+      "verification": "source-checked",
+      "sourceUrl": "https://stephanieikeokafor.com/about",
+      "imageUrl": "/images/teachers/stephanie-ike-okafor.jpg",
+      "imageSourceUrl": "https://stephanieikeokafor.com/about",
+      "imageAlt": "Portrait of Stephanie Ike Okafor"
+    },
+    {
+      "id": "john-eckhardt",
+      "name": "John Eckhardt",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "spiritual-warfare",
+        "prayer",
+        "leadership"
+      ],
+      "sortOrder": 5,
+      "verification": "review-pending",
+      "imageUrl": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/2147631218/images/db02181-2d35-7bf2-7478-d5e5affba53_639bea80-1f69-48f4-bca4-8dbf432a37c9.jpg",
+      "imageSourceUrl": "https://johneckhardt.mykajabi.com/password/new",
+      "imageAlt": "Portrait of John Eckhardt"
+    },
+    {
+      "id": "tomi-arayomi",
+      "name": "Tomi Arayomi",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "hearing-god",
+        "leadership",
+        "kingdom"
+      ],
+      "sortOrder": 6,
+      "verification": "review-pending",
+      "imageUrl": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2156235314/settings_images/73a646-834-61cf-e6b1-6515ce73002c_untitled-27-6-Edit.jpg",
+      "imageSourceUrl": "https://www.tomiarayomi.com/about",
+      "imageAlt": "Portrait of Tomi Arayomi"
+    },
+    {
+      "id": "myles-munroe",
+      "name": "Myles Munroe",
+      "summary": "Author whose published works explore vision, purpose, and leadership.",
+      "topicIds": [
+        "kingdom",
+        "leadership",
+        "identity-purpose"
+      ],
+      "sortOrder": 7,
+      "verification": "source-checked",
+      "sourceUrl": "https://www.whitakerhouse.com/authors/myles-munroe/",
+      "imageUrl": "/images/teachers/myles-munroe.jpg",
+      "imageSourceUrl": "https://www.whitakerhouse.com/authors/myles-munroe/",
+      "imageAlt": "Portrait of Myles Munroe"
+    },
+    {
+      "id": "francis-myles",
+      "name": "Francis Myles",
+      "summary": "Author and teacher with resources on royal priesthood and the order of Melchizedek.",
+      "ministry": "Francis Myles International",
+      "topicIds": [
+        "kingdom",
+        "prayer",
+        "spiritual-warfare"
+      ],
+      "sortOrder": 8,
+      "verification": "source-checked",
+      "sourceUrl": "https://francismyles.com/shop/type/books/the-order-of-melchizedek/",
+      "imageUrl": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2155840791/settings_images/6cc6d53-5340-c6ba-3657-27a882a2133f_drmyles2.png",
+      "imageSourceUrl": "https://www.francismylesacademy.com/start",
+      "imageAlt": "Portrait of Francis Myles"
+    },
+    {
+      "id": "michael-orokpo",
+      "name": "Michael Orokpo",
+      "summary": "President of Encounter Jesus Ministries International, with teaching focused on spiritual growth and prayer.",
+      "ministry": "Encounter Jesus Ministries International",
+      "topicIds": [
+        "prayer",
+        "spiritual-growth",
+        "holy-spirit"
+      ],
+      "sortOrder": 9,
+      "verification": "source-checked",
+      "sourceUrl": "https://www.encounterjesusministriesinternational.org/about",
+      "imageUrl": "/images/teachers/michael-orokpo.jpg",
+      "imageSourceUrl": "https://www.encounterjesusministriesinternational.org/about",
+      "imageAlt": "Portrait of Michael Orokpo"
+    },
+    {
+      "id": "johnson-suleman",
+      "name": "Johnson Suleman",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "prayer",
+        "spiritual-warfare",
+        "healing-revival"
+      ],
+      "sortOrder": 10,
+      "verification": "review-pending",
+      "imageUrl": "/images/teachers/johnson-suleman.jpg",
+      "imageSourceUrl": "https://churchtimesnigeria.net/why-i-abandoned-islam-for-the-christian-faith-apostle-suleman/",
+      "imageAlt": "Portrait of Johnson Suleman"
+    },
+    {
+      "id": "guillermo-maldonado",
+      "name": "Guillermo Maldonado",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "healing-revival",
+        "holy-spirit",
+        "hearing-god"
+      ],
+      "sortOrder": 11,
+      "verification": "review-pending",
+      "imageUrl": "/images/teachers/guillermo-maldonado.jpg",
+      "imageSourceUrl": "https://guillermomaldonado.org/home2/",
+      "imageAlt": "Portrait of Guillermo Maldonado"
+    },
+    {
+      "id": "jonathan-oloyede",
+      "name": "Jonathan Oloyede",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "prayer",
+        "discipleship",
+        "leadership"
+      ],
+      "sortOrder": 12,
+      "verification": "review-pending",
+      "imageUrl": "https://fathershouse.org.uk/images/podcastfiles/images/jonathans-picture.jpg",
+      "imageSourceUrl": "https://fathershouse.org.uk/index.php/podcast/speaker/4-dr-jonathan-oloyede",
+      "imageAlt": "Portrait of Jonathan Oloyede"
+    },
+    {
+      "id": "michael-rockson",
+      "name": "Michael Rockson",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "leadership",
+        "discipleship",
+        "hearing-god"
+      ],
+      "sortOrder": 13,
+      "verification": "review-pending"
+    },
+    {
+      "id": "stephen-ike",
+      "name": "Stephen Ike",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "kingdom",
+        "identity-purpose",
+        "spiritual-growth"
+      ],
+      "sortOrder": 14,
+      "verification": "review-pending"
+    },
+    {
+      "id": "ifeanyi-emmanuel",
+      "name": "Ifeanyi Emmanuel",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "prayer",
+        "spiritual-growth",
+        "discipleship"
+      ],
+      "sortOrder": 15,
+      "verification": "review-pending"
+    },
+    {
+      "id": "julius-ekweozor",
+      "name": "Julius Ekweozor",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "spiritual-warfare",
+        "kingdom",
+        "prayer"
+      ],
+      "sortOrder": 16,
+      "verification": "review-pending"
+    },
+    {
+      "id": "alfred-williams",
+      "name": "Alfred Williams",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "spiritual-warfare",
+        "spiritual-growth",
+        "prayer"
+      ],
+      "sortOrder": 17,
+      "verification": "review-pending"
+    },
+    {
+      "id": "chuck-pierce",
+      "name": "Chuck Pierce",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "prayer",
+        "hearing-god",
+        "leadership"
+      ],
+      "sortOrder": 18,
+      "verification": "review-pending",
+      "imageUrl": "https://gloryofzion.org/wp-content/uploads/2026/07/ChuckPierceHS26new.png",
+      "imageSourceUrl": "https://gloryofzion.org/chuck-pierce/",
+      "imageAlt": "Portrait of Chuck Pierce"
+    },
+    {
+      "id": "bill-johnson",
+      "name": "Bill Johnson",
+      "summary": "Teacher and author whose published resources explore faith, God’s presence, and Christian living.",
+      "ministry": "Bethel Church",
+      "region": "United States",
+      "topicIds": [
+        "holy-spirit",
+        "healing-revival",
+        "kingdom"
+      ],
+      "sortOrder": 19,
+      "verification": "source-checked",
+      "sourceUrl": "https://www.bethel.com/ministries/bill-johnson",
+      "imageUrl": "/images/teachers/bill-johnson.jpg",
+      "imageSourceUrl": "https://www.bethel.com/teams/senior-leadership",
+      "imageAlt": "Portrait of Bill Johnson"
+    },
+    {
+      "id": "isaac-pitre",
+      "name": "Isaac Pitre",
+      "summary": "Profile details are being reviewed. Explore the editorial topic tags or request a resource.",
+      "topicIds": [
+        "identity-purpose",
+        "kingdom",
+        "spiritual-growth"
+      ],
+      "sortOrder": 20,
+      "verification": "review-pending",
+      "imageUrl": "/images/teachers/isaac-pitre.jpg",
+      "imageSourceUrl": "https://www.isaacpitre.org/pastor-pitre",
+      "imageAlt": "Portrait of Isaac Pitre"
+    }
+  ],
+  "books": [
+    {
+      "id": "arome-osayi-godward-finding-the-true-north",
+      "personId": "arome-osayi",
+      "title": "Godward: Finding the True North",
+      "topicIds": [
+        "spiritual-growth"
+      ],
+      "url": "https://www.rcnlagos.org/books",
+      "sourceUrl": "https://www.rcnlagos.org/books",
+      "verification": "source-checked"
+    },
+    {
+      "id": "arome-osayi-decimating-demonic-devices",
+      "personId": "arome-osayi",
+      "title": "Decimating Demonic Devices",
+      "topicIds": [
+        "spiritual-warfare"
+      ],
+      "url": "https://www.rcnlagos.org/books",
+      "sourceUrl": "https://www.rcnlagos.org/books",
+      "verification": "source-checked"
+    },
+    {
+      "id": "arome-osayi-an-epistle-to-the-apostles-in-the-marketplace",
+      "personId": "arome-osayi",
+      "title": "An Epistle to the Apostles in the Marketplace",
+      "topicIds": [
+        "leadership",
+        "kingdom"
+      ],
+      "url": "https://www.rcnlagos.org/books",
+      "sourceUrl": "https://www.rcnlagos.org/books",
+      "verification": "source-checked"
+    },
+    {
+      "id": "arome-osayi-kingdom-recalibration-legacy-edition",
+      "personId": "arome-osayi",
+      "title": "Kingdom Recalibration - Legacy Edition",
+      "topicIds": [
+        "kingdom"
+      ],
+      "url": "https://www.rcnlagos.org/books",
+      "sourceUrl": "https://www.rcnlagos.org/books",
+      "verification": "source-checked"
+    },
+    {
+      "id": "stephanie-ike-okafor-moving-forward-biblical-teachings-for-walking-in-purpose",
+      "personId": "stephanie-ike-okafor",
+      "title": "Moving Forward: Biblical Teachings for Walking in Purpose",
+      "topicIds": [
+        "identity-purpose"
+      ],
+      "url": "https://stephanieikeokafor.com/about",
+      "sourceUrl": "https://stephanieikeokafor.com/about",
+      "verification": "source-checked"
+    },
+    {
+      "id": "stephanie-ike-okafor-the-power-of-your-dreams-a-guide-to-hearing-and-understanding-how-god-speaks-while-you-sleep",
+      "personId": "stephanie-ike-okafor",
+      "title": "The Power of Your Dreams: A Guide to Hearing and Understanding How God Speaks While You Sleep",
+      "topicIds": [
+        "hearing-god"
+      ],
+      "url": "https://stephanieikeokafor.com/books",
+      "sourceUrl": "https://stephanieikeokafor.com/books",
+      "verification": "source-checked"
+    },
+    {
+      "id": "myles-munroe-the-principles-and-power-of-vision",
+      "personId": "myles-munroe",
+      "title": "The Principles and Power of Vision",
+      "topicIds": [
+        "identity-purpose",
+        "leadership"
+      ],
+      "url": "https://www.whitakerhouse.com/product/principles-and-power-of-vision",
+      "sourceUrl": "https://www.whitakerhouse.com/product/principles-and-power-of-vision",
+      "verification": "source-checked"
+    },
+    {
+      "id": "myles-munroe-the-spirit-of-leadership",
+      "personId": "myles-munroe",
+      "title": "The Spirit of Leadership",
+      "topicIds": [
+        "leadership"
+      ],
+      "url": "https://www.whitakerhouse.com/authors/myles-munroe/",
+      "sourceUrl": "https://www.whitakerhouse.com/authors/myles-munroe/",
+      "verification": "source-checked"
+    },
+    {
+      "id": "francis-myles-the-order-of-melchizedek",
+      "personId": "francis-myles",
+      "title": "The Order of Melchizedek",
+      "topicIds": [
+        "kingdom"
+      ],
+      "url": "https://francismyles.com/shop/type/books/the-order-of-melchizedek/",
+      "sourceUrl": "https://francismyles.com/shop/type/books/the-order-of-melchizedek/",
+      "verification": "source-checked"
+    },
+    {
+      "id": "bill-johnson-when-heaven-invades-earth",
+      "personId": "bill-johnson",
+      "title": "When Heaven Invades Earth",
+      "topicIds": [
+        "kingdom",
+        "healing-revival"
+      ],
+      "url": "https://shop.bethel.com/collections/bill-johnson-ministries-digital",
+      "sourceUrl": "https://shop.bethel.com/collections/bill-johnson-ministries-digital",
+      "verification": "source-checked"
+    },
+    {
+      "id": "bill-johnson-hosting-the-presence",
+      "personId": "bill-johnson",
+      "title": "Hosting the Presence",
+      "topicIds": [
+        "holy-spirit"
+      ],
+      "url": "https://shop.bethel.com/collections/bill-johnson",
+      "sourceUrl": "https://shop.bethel.com/collections/bill-johnson",
+      "verification": "source-checked"
+    },
+    {
+      "id": "bill-johnson-strengthen-yourself-in-the-lord",
+      "personId": "bill-johnson",
+      "title": "Strengthen Yourself in the Lord",
+      "topicIds": [
+        "spiritual-growth"
+      ],
+      "url": "https://shop.bethel.com/products/strengthen-yourself-in-the-lord",
+      "sourceUrl": "https://shop.bethel.com/products/strengthen-yourself-in-the-lord",
+      "verification": "source-checked"
+    }
+  ],
+  "teachings": [
+    {
+      "id": "selman-unveiling-christ",
+      "personId": "joshua-selman",
+      "title": "Unveiling Christ (Part 1)",
+      "topicIds": [
+        "spiritual-growth"
+      ],
+      "url": "https://media.koinoniaglobal.org/videos/unveiling-christ-part-1-with-apostle-joshua-selman/",
+      "sourceUrl": "https://media.koinoniaglobal.org/videos/unveiling-christ-part-1-with-apostle-joshua-selman/",
+      "verification": "source-checked",
+      "format": "Video"
+    },
+    {
+      "id": "selman-kingdom-advance",
+      "personId": "joshua-selman",
+      "title": "Strategy for Kingdom Advance (Part 3)",
+      "topicIds": [
+        "kingdom",
+        "leadership"
+      ],
+      "url": "https://media.koinoniaglobal.org/videos/strategy-for-kingdom-advance-part-3-with-apostle-joshua-selman/",
+      "sourceUrl": "https://media.koinoniaglobal.org/videos/strategy-for-kingdom-advance-part-3-with-apostle-joshua-selman/",
+      "verification": "source-checked",
+      "format": "Video"
+    }
+  ],
+  "topics": [
+    {
+      "id": "kingdom",
+      "name": "Kingdom of God",
+      "description": "Explore kingdom principles and life under God’s reign."
+    },
+    {
+      "id": "identity-purpose",
+      "name": "Identity & purpose",
+      "description": "Explore belonging, calling, vision, and purpose."
+    },
+    {
+      "id": "spiritual-growth",
+      "name": "Spiritual growth",
+      "description": "Explore formation and a maturing walk with Christ."
+    },
+    {
+      "id": "prayer",
+      "name": "Prayer & intercession",
+      "description": "Explore a life of prayer and intercession."
+    },
+    {
+      "id": "holy-spirit",
+      "name": "The Holy Spirit",
+      "description": "Explore teaching about the Holy Spirit."
+    },
+    {
+      "id": "hearing-god",
+      "name": "Hearing God & discernment",
+      "description": "Explore discernment and recognizing God’s leading."
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership & ministry",
+      "description": "Explore service, leadership, and faithful ministry."
+    },
+    {
+      "id": "spiritual-warfare",
+      "name": "Spiritual warfare",
+      "description": "Explore teachings on prayer and spiritual conflict."
+    },
+    {
+      "id": "healing-revival",
+      "name": "Healing & revival",
+      "description": "Explore teaching on healing and renewal."
+    },
+    {
+      "id": "discipleship",
+      "name": "Discipleship",
+      "description": "Explore walking with others in Christian growth."
+    }
+  ],
+  "channels": [
+    {
+      "id": "joshua-selman-website",
+      "personId": "joshua-selman",
+      "label": "Official resource website",
+      "type": "Website",
+      "url": "https://media.koinoniaglobal.org/sermons/",
+      "sourceUrl": "https://media.koinoniaglobal.org/sermons/",
+      "verification": "source-checked"
+    },
+    {
+      "id": "femi-lazarus-website",
+      "personId": "femi-lazarus",
+      "label": "Official resource website",
+      "type": "Website",
+      "url": "https://femilazarus.com/",
+      "sourceUrl": "https://femilazarus.com/",
+      "verification": "source-checked"
+    },
+    {
+      "id": "arome-osayi-website",
+      "personId": "arome-osayi",
+      "label": "Official resource website",
+      "type": "Website",
+      "url": "https://www.rcnlagos.org/books",
+      "sourceUrl": "https://www.rcnlagos.org/books",
+      "verification": "source-checked"
+    },
+    {
+      "id": "stephanie-ike-okafor-website",
+      "personId": "stephanie-ike-okafor",
+      "label": "Official resource website",
+      "type": "Website",
+      "url": "https://stephanieikeokafor.com/about",
+      "sourceUrl": "https://stephanieikeokafor.com/about",
+      "verification": "source-checked"
+    },
+    {
+      "id": "myles-munroe-website",
+      "personId": "myles-munroe",
+      "label": "Official resource website",
+      "type": "Website",
+      "url": "https://www.whitakerhouse.com/authors/myles-munroe/",
+      "sourceUrl": "https://www.whitakerhouse.com/authors/myles-munroe/",
+      "verification": "source-checked"
+    },
+    {
+      "id": "francis-myles-website",
+      "personId": "francis-myles",
+      "label": "Official resource website",
+      "type": "Website",
+      "url": "https://francismyles.com/shop/type/books/the-order-of-melchizedek/",
+      "sourceUrl": "https://francismyles.com/shop/type/books/the-order-of-melchizedek/",
+      "verification": "source-checked"
+    },
+    {
+      "id": "michael-orokpo-website",
+      "personId": "michael-orokpo",
+      "label": "Official resource website",
+      "type": "Website",
+      "url": "https://www.encounterjesusministriesinternational.org/about",
+      "sourceUrl": "https://www.encounterjesusministriesinternational.org/about",
+      "verification": "source-checked"
+    },
+    {
+      "id": "bill-johnson-website",
+      "personId": "bill-johnson",
+      "label": "Official resource website",
+      "type": "Website",
+      "url": "https://www.bethel.com/ministries/bill-johnson",
+      "sourceUrl": "https://www.bethel.com/ministries/bill-johnson",
+      "verification": "source-checked"
+    }
+  ]
+}
