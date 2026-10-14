@@ -3,7 +3,7 @@ import './footer.css';
 import { BookOpen, Shield, FileText, LifeBuoy, Mail, Instagram, Youtube, Facebook, AtSign } from 'lucide-react';
 
 const services=[['Identipurpose','https://identipurpose.com'],['HEEDGOD','https://heedgod.com'],['Yes Heal','https://yeshealed.com'],['Samie Johnz','https://www.samiejohnz.com']];
-const apps=[['HEEDGOD App','https://heedgod.app'],['Yes Heal App','https://app.yeshealed.com']];
+const apps=[['HEEDGOD','https://heedgod.app'],['Yes Heal','https://app.yeshealed.com']];
 const explore=[["Your journey","/journey"],["Teachings","/teachings"],["Fathers & teachers","/fathers-and-teachers"],["Discipleship","/discipleship"]];
 const linkStyle='footer-link inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary';
 function FooterLink({href,children,...props}){return href.startsWith('/')?<Link to={href} {...props}>{children}</Link>:<a href={href} {...props}>{children}</a>;}
